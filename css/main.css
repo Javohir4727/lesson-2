@@ -1,0 +1,29 @@
+header {
+  background-color: orange;
+  height: 10vh;
+  font-family: sans-serif;
+  align-items: center;
+}
+header ul {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: center;
+  gap: 50px;
+  height: 100%;
+  align-items: center;
+}
+header ul li {
+  font-size: 18px;
+  list-style: none;
+}
+header ul li a {
+  color: white;
+  text-decoration: none;
+  align-items: center;
+}
+header ul li a:hover {
+  color: wheat;
+  text-decoration: underline;
+}
+
+/*# sourceMappingURL=main.css.map */
